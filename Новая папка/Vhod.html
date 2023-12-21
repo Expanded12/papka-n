@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css"  rel="stylesheet"/>
+    <link rel="stylesheet" href="stily.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-success">
+      <div class="container-fluid">
+        <img src="logo/free-icon-pets-3460335.png" alt="bootstrap" width="70" height="70"> 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="First.html">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Vhod.html">Вход</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="Register.html">Регистрация</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="dobzhiv.html">Добавление животного</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="poisk.html">Поиск по обьявлениям</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+            <button class="btn btn-outline-light" type="submit">Поиск</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+<div class="vhod2">
+      <h1 class="text-center bg-success-subtle p-3">Вход</h1>
+    </div>
+    
+<div class="vhod">
+    <form class="w-50 m-auto p-5">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Адрес электронной почты</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">Мы никогда никому не передадим вашу электронную почту.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Пароль</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Проверить меня</label>
+        </div>
+        <button type="submit" class="btn bg-success-subtle">Войти</button>
+      </form>
+    </div>
+
+
+<footer class="border-bottom bg-success foot">
+  <p class="text-white p-3">GET PET BACK © Copyright, 2022</p>
+  <p class="text-white p-3">Все права защищены</p>
+</footer>
+
+      <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"> </script>
+
+</body>
+</html>
